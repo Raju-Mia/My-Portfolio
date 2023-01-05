@@ -26,3 +26,15 @@ class AboutMe(models.Model):
 
     def __str__(self):
         return self.user.username
+
+
+
+
+class ContactForm(models.Model):
+    first_name = models.CharField(max_length=50)
+    email_add = models.EmailField(max_length=100)
+    subject_name = models.CharField(max_length=50)
+    message = models.TextField(max_length=200)
+
+    def __str__(self):
+        return self.first_name

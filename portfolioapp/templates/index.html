@@ -80,9 +80,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll" href="#work">Work</a>
             </li>
-            <li class="nav-item">
+            {% comment %} <li class="nav-item">
               <a class="nav-link js-scroll" href="#blog">Blog</a>
-            </li>
+            </li> {% endcomment %}
             <li class="nav-item">
               <a class="nav-link js-scroll" href="#contact">Contact</a>
             </li>
@@ -242,7 +242,7 @@
                       
                       <h5 cclass="title-left" >Open:   
                         <a href="https://www.canva.com/design/DAFRR9hnUfY/uzN4PKUoFyIiQSO-MvusHw/view?utm_content=DAFRR9hnUfY&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank"> 
-                          <button type="button" class="btn btn-outline-primary btn-sm"> CV </button>
+                          <button type="button" class="btn btn-outline-primary btn-sm">Resume</button>
                         </a>
                         <a href="{{ about.github }}" target="_blank"> 
                           <button type="button" class="btn btn-outline-primary btn-sm">GitHub</button>
@@ -270,29 +270,29 @@
             <div class="title-box text-center">
               <h3 class="title-a">Services</h3>
               <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              
               </p>
               <div class="line-mf"></div>
             </div>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
+          <div class="col d-flex justify-content-center">
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="ion-monitor"></i></span>
               </div>
               <div class="service-content">
-                <h2 class="s-title">Web Design</h2>
+                <h2 class="s-title">Web Development</h2>
                 <p class="s-description text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-                  adipisci eaque autem fugiat! Quia, provident vitae! Magni
-                  tempora perferendis eum non provident.
+                  
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+
+          
+          {% comment %} <div class="col-md-4">
             <div class="service-box">
               <div class="service-ico">
                 <span class="ico-circle"><i class="ion-code-working"></i></span>
@@ -368,7 +368,9 @@
                 </p>
               </div>
             </div>
-          </div>
+          </div> {% endcomment %}
+
+
         </div>
       </div>
     </section>
@@ -389,7 +391,7 @@
                 ></span>
               </div>
               <div class="counter-num">
-                <p class="counter">450</p>
+                <p class="counter">04</p>
                 <span class="counter-text">WORKS COMPLETED</span>
               </div>
             </div>
@@ -402,7 +404,7 @@
                 ></span>
               </div>
               <div class="counter-num">
-                <p class="counter">15</p>
+                <p class="counter">01</p>
                 <span class="counter-text">YEARS OF EXPERIENCE</span>
               </div>
             </div>
@@ -413,7 +415,7 @@
                 <span class="ico-circle"><i class="ion-ios-people"></i></span>
               </div>
               <div class="counter-num">
-                <p class="counter">550</p>
+                <p class="counter">03</p>
                 <span class="counter-text">TOTAL CLIENTS</span>
               </div>
             </div>
@@ -424,7 +426,7 @@
                 <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
               </div>
               <div class="counter-num">
-                <p class="counter">36</p>
+                <p class="counter">02</p>
                 <span class="counter-text">AWARD WON</span>
               </div>
             </div>
@@ -441,7 +443,7 @@
             <div class="title-box text-center">
               <h3 class="title-a">Portfolio</h3>
               <p class="subtitle-a">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                
               </p>
               <div class="line-mf"></div>
             </div>
@@ -453,7 +455,7 @@
               <a href="../static/img/work-1.jpg" data-lightbox="gallery-mf">
                 <div class="work-img">
                   <img
-                    src="../static/img/work-1.jpg"
+                    src="../static/img/work-1.png"
                     alt=""
                     class="img-fluid"
                   />
@@ -461,10 +463,12 @@
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title">Lorem impsum dolor</h2>
+                      <h2 class="w-title">Django Girls Blog Site</h2>
+                      <p class="text-dark">Python | Django | HTML</p>
+                      <a href="https://github.com/Raju-Mia/config_simple_project3" target="_blank"><span class="w-ctegory">GitHub-code</span></a>
                       <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
+                        <span class="w-ctegory">More Details</span> /
+                        <span class="w-date">Jul 13, 2021.</span>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -482,7 +486,7 @@
               <a href="../static/img/work-2.jpg" data-lightbox="gallery-mf">
                 <div class="work-img">
                   <img
-                    src="../static/img/work-2.jpg"
+                    src="../static/img/work-2.png"
                     alt=""
                     class="img-fluid"
                   />
@@ -490,10 +494,12 @@
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title">Loreda Cuno Nere</h2>
+                      <h2 class="w-title">Employee Management System</h2>
+                      <p class="text-dark">Python | Django | Bootstrap</p>
+                      <a href="https://github.com/Raju-Mia/EMS_WITH_PYTHON_DJANGO" target="_blank"><span class="w-ctegory">GitHub-code</span></a>
                       <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
+                        <span class="w-ctegory">More Details</span> /
+                        <span class="w-date">Jun 20, 2022</span>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -508,10 +514,10 @@
           </div>
           <div class="col-md-4">
             <div class="work-box">
-              <a href="../static/img/work-3.jpg" data-lightbox="gallery-mf">
+              <a href="../static/img/work-3.png" data-lightbox="gallery-mf">
                 <div class="work-img">
                   <img
-                    src="../static/img/work-3.jpg"
+                    src="../static/img/work-3.png"
                     alt=""
                     class="img-fluid"
                   />
@@ -519,10 +525,12 @@
                 <div class="work-content">
                   <div class="row">
                     <div class="col-sm-8">
-                      <h2 class="w-title">Mavrito Lana Dere</h2>
+                      <h2 class="w-title">DIU Website Development Contest</h2>
+                      <p class="text-dark">JavaScript | Bootstrap</p>
+                      <a href="https://github.com/Raju-Mia/childpoem" target="_blank"><span class="w-ctegory">GitHub-code</span></a>
                       <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
+                        <span class="w-ctegory">More Details</span> /
+                        <span class="w-date">Jun 14, 2022</span>
                       </div>
                     </div>
                     <div class="col-sm-4">
@@ -535,7 +543,10 @@
               </a>
             </div>
           </div>
-          <div class="col-md-4">
+
+
+
+          {% comment %} <div class="col-md-4">
             <div class="work-box">
               <a href="../static/img/work-4.jpg" data-lightbox="gallery-mf">
                 <div class="work-img">
@@ -621,7 +632,10 @@
                 </div>
               </a>
             </div>
-          </div>
+          </div> {% endcomment %}
+
+
+
         </div>
       </div>
     </section>
@@ -640,18 +654,19 @@
               <div class="testimonial-box">
                 <div class="author-test">
                   <img
-                    src="../static/img/testimonial-2.jpg"
+                    src="../static/img/satter.jpg"
                     alt=""
                     width="150" height="150"
                     class="rounded-circle b-shadow-a"
                   />
-                  <span class="author">Xavi Alonso</span>
+                  <span class="author">Mr. Abdus Sattar</span>
                 </div>
                 <div class="content-test">
+
+                  <span class="w-ctegory">Assistant Professor & Coordinator-MSCSE, Daffodil International University-DIU </span><br> <br>
+
                   <p class="description lead">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                    sem. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit.
+                    A programmer is a person who fixed a problem that you don’t know you have, in a way you don’t understand.
                   </p>
                   <span class="comit"><i class="fa fa-quote-right"></i></span>
                 </div>
@@ -659,17 +674,18 @@
               <div class="testimonial-box">
                 <div class="author-test">
                   <img
-                    src="../static/img/testimonial-4.jpg"
+                    src="../static/img/towhid.JPG"
                     alt=""
                     class="rounded-circle b-shadow-a"
                   />
-                  <span class="author">Marta Socrate</span>
+                  <span class="author">Professor Dr. Touhid Bhuiyan</span>
                 </div>
                 <div class="content-test">
+
+                  <span class="w-ctegory">Professor & Head  , Daffodil International University-DIU </span><br> <br>
+
                   <p class="description lead">
-                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at
-                    sem. Lorem ipsum dolor sit amet, consectetur adipiscing
-                    elit.
+                    The computer was born to solve problems that did not exist before.” — Bill Gates, Microsoft founder and former CEO, philanthropist
                   </p>
                   <span class="comit"><i class="fa fa-quote-right"></i></span>
                 </div>
@@ -680,7 +696,7 @@
       </div>
     </div>
 
-    <!--/ Section Blog Star /-->
+    {% comment %} <!--/ Section Blog Star /-->
     <section id="blog" class="blog-mf sect-pt4 route">
       <div class="container">
         <div class="row">
@@ -815,7 +831,11 @@
         </div>
       </div>
     </section>
-    <!--/ Section Blog End /-->
+    <!--/ Section Blog End /--> {% endcomment %}
+
+
+
+
 
     <!--/ Section Contact-Footer Star /-->
     <section
@@ -831,15 +851,19 @@
                 <div class="row">
                   <div class="col-md-6">
                     <div class="title-box-2">
-                      <h5 class="title-left">Send Message Us</h5>
+                      <h5 class="title-left">Send Message</h5>
                     </div>
                     <div>
+
+
+
                       <form
-                        action=""
+                        action="#"
                         method="post"
                         role="form"
                         class="contactForm"
                       >
+                      {% csrf_token %}
                         <div id="sendmessage">
                           Your message has been sent. Thank you!
                         </div>
@@ -855,6 +879,7 @@
                                 placeholder="Your Name"
                                 data-rule="minlen:4"
                                 data-msg="Please enter at least 4 chars"
+                                required
                               />
                               <div class="validation"></div>
                             </div>
@@ -869,6 +894,7 @@
                                 placeholder="Your Email"
                                 data-rule="email"
                                 data-msg="Please enter a valid email"
+                                required
                               />
                               <div class="validation"></div>
                             </div>
@@ -883,6 +909,7 @@
                                 placeholder="Subject"
                                 data-rule="minlen:4"
                                 data-msg="Please enter at least 8 chars of subject"
+                                required
                               />
                               <div class="validation"></div>
                             </div>
@@ -896,20 +923,30 @@
                                 data-rule="required"
                                 data-msg="Please write something for us"
                                 placeholder="Message"
+                                required
                               ></textarea>
                               <div class="validation"></div>
                             </div>
                           </div>
                           <div class="col-md-12">
+
+                            
                             <button
                               type="submit"
                               class="button button-a button-big button-rouded"
                             >
+                              {% comment %} <a href ="{% url 'contact' %}">Send Message</a> {% endcomment %}
                               Send Message
                             </button>
+
                           </div>
                         </div>
                       </form>
+
+
+
+
+                      
                     </div>
                   </div>
                   <div class="col-md-6">
@@ -918,11 +955,8 @@
                     </div>
                     <div class="more-info">
                       <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis dolorum dolorem soluta quidem expedita aperiam
-                        aliquid at. Totam magni ipsum suscipit amet? Autem nemo
-                        esse laboriosam ratione nobis mollitia inventore?
-                      </p>
+                        If I can be of assistance, please do not hesitate to contact me.
+                        <br><br><br>
                       <ul class="list-ico">
                         <li>
                           <span class="ion-ios-location"></span> {{ about.address }}
@@ -1011,7 +1045,7 @@
     <script src="../static/lib/lightbox/js/lightbox.min.js"></script>
     <script src="../static/lib/typed/typed.min.js"></script>
     <!-- Contact Form JavaScript File -->
-    <script src="../static/contactform/contactform.js"></script>
+    {% comment %} <script src="../static/contactform/contactform.js"></script> {% endcomment %}
 
     <!-- Template Main Javascript File -->
     <script src="../static/js/main.js"></script>
